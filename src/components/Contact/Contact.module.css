@@ -1,0 +1,23 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-right: auto;
+}
+.btn {
+  height: 40px;
+  width: 80px;
+  margin: auto 0;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 13px;
+  transition: 350ms;
+}
+.btn:hover,
+.btn:focus {
+  background-color: rgb(208, 208, 208);
+}
+.name {
+  display: flex;
+  gap: 10px;
+}

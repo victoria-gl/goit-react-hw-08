@@ -1,0 +1,7 @@
+.contacts-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: calc(290px * 3 + 10px * 2);
+  margin-top: 30px;
+}

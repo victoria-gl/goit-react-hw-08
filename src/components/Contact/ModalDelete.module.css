@@ -1,0 +1,35 @@
+.form{
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    color: rgb(138, 60, 60);
+    font-size: 30px;
+}
+.text{
+    font-size: 17px; 
+    color: rgb(138, 60, 60);
+}
+.wrap{
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 7px;
+    font-size: 18px;
+    border: 2px solid darkgrey;
+    border-radius: 6px;
+    background-color: rgb(254, 248, 248);
+    box-shadow: 2px 2px 0 0 darkgrey,
+    4px 4px 0 0 black;
+    transition-duration: 200ms;
+}
+.btn:hover{
+    font-size: 20px;
+    box-shadow: 3px 3px darkgrey, 6px 6px 0 0 black;
+    transform: translate(2px, -2px);
+}

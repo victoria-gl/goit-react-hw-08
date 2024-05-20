@@ -1,0 +1,21 @@
+.active {
+  color: #2054a3;
+}
+.link {
+  font-size: 18px;
+  font-weight: bold;
+  &:hover {
+    color: #2054a3;
+  }
+}
+.nav {
+  display: flex;
+  gap: 20px;
+}
+.welcome {
+  font-size: 20px;
+}
+
+.login {
+  color: #2054a3;
+}
